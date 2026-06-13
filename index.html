@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luna Sahne — Geceye Açılan Perde</title>
+  <meta name="description" content="Luna Sahne Tiyatrosu sunar: Geceye Açılan Perde. Bir sır, bir sahne, unutulmaz bir gece." />
+
+  <!-- Google Fonts: Cormorant Garamond (başlık) + Inter (gövde) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="#hero" class="nav-logo">
+        <span class="logo-icon">✦</span>
+        Luna Sahne
+      </a>
+
+      <!-- Hamburger (mobil) -->
+      <button class="hamburger" id="hamburger" aria-label="Menüyü aç/kapat" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Menü linkleri -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link">Ana Sayfa</a></li>
+        <li><a href="#about" class="nav-link">Oyun Hakkında</a></li>
+        <li><a href="#cast" class="nav-link">Kadro</a></li>
+        <li><a href="#sessions" class="nav-link">Seanslar</a></li>
+        <li><a href="#gallery" class="nav-link">Galeri</a></li>
+        <li><a href="#reviews" class="nav-link">Yorumlar</a></li>
+        <li><a href="#contact" class="nav-link">İletişim</a></li>
+        <li><a href="#sessions" class="nav-link nav-cta">Bilet Al</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+
+    <!-- Sahne ışığı efekti (CSS ile) -->
+    <div class="spotlight spotlight-1"></div>
+    <div class="spotlight spotlight-2"></div>
+
+    <!-- Dekoratif perde çizgileri -->
+    <div class="curtain-left"></div>
+    <div class="curtain-right"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Luna Sahne Tiyatrosu Sunar</p>
+      <h1 class="hero-title">
+        Geceye<br />
+        <em>Açılan Perde</em>
+      </h1>
+      <p class="hero-slogan">Bir sır, bir sahne, unutulmaz bir gece.</p>
+      <p class="hero-desc">
+        Karanlığın ortasında yanan tek bir mum gibi bu oyun; sizi gerçekle kurgunun,
+        hafızayla unutuşun sınırında bırakıyor. Sahne kapanana kadar nefes alamayacaksınız.
+      </p>
+
+      <!-- CTA Butonları -->
+      <div class="hero-buttons">
+        <a href="#sessions" class="btn btn-primary">Bilet Al</a>
+        <a href="#" class="btn btn-ghost">
+          <span class="play-icon">▶</span> Fragmanı İzle
+        </a>
+      </div>
+
+      <!-- Yaklaşan gösterim bilgisi -->
+      <div class="next-show">
+        <span class="next-show-label">Yaklaşan Gösterim</span>
+        <span class="next-show-date">12 Temmuz 2025 — Cumartesi — 20:30</span>
+        <span class="next-show-venue">Ana Salon · 450 koltuk</span>
+      </div>
+    </div>
+
+    <!-- Scroll işareti -->
+    <div class="scroll-indicator">
+      <span>Aşağı Kaydır</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== OYUN HAKKINDA ===================== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">Oyun Hakkında</span>
+        <h2 class="section-title">Geceye Açılan Perde</h2>
+      </div>
+
+      <div class="about-grid">
+
+        <!-- Sol: Konu -->
+        <div class="about-text">
+          <p class="about-lead">
+            1940'ların İstanbul'unda eski bir tiyatro binasının son gecesi. Sahnede altı oyuncu,
+            seyircide ise yalnızca tek kişi: kim olduğu bilinmeyen bir gizemli yabancı.
+          </p>
+          <p>
+            Oyun ilerledikçe sahnedeki karakterler ile bu yabancı arasındaki bağ
+            giderek karmaşıklaşır. Geçmişin gizli kalmış bir suçu yavaş yavaş
+            yüzeye çıkmaya başlar. Perde kapanmadan önce herkesin yüzleşmesi gereken
+            bir gerçek vardır — ve o gerçek seyircinin ta kendisine dokunacaktır.
+          </p>
+          <p>
+            Nuri Demirhan'ın kaleminden, Leyla Arslan'ın yönetiminden doğan bu yapım;
+            tiyatro tarihimizin en çarpıcı psikolog gerilimi olarak değerlendiriliyor.
+          </p>
+        </div>
+
+        <!-- Sağ: Detay kartları -->
+        <div class="about-details">
+          <div class="detail-card">
+            <span class="detail-icon">🎭</span>
+            <span class="detail-label">Tür</span>
+            <span class="detail-value">Dram / Gizem</span>
+          </div>
+          <div class="detail-card">
+            <span class="detail-icon">⏱</span>
+            <span class="detail-label">Süre</span>
+            <span class="detail-value">95 Dakika</span>
+          </div>
+          <div class="detail-card">
+            <span class="detail-icon">🔞</span>
+            <span class="detail-label">Yaş Sınırı</span>
+            <span class="detail-value">13+</span>
+          </div>
+          <div class="detail-card">
+            <span class="detail-icon">✍</span>
+            <span class="detail-label">Yazar</span>
+            <span class="detail-value">Nuri Demirhan</span>
+          </div>
+          <div class="detail-card">
+            <span class="detail-icon">🎬</span>
+            <span class="detail-label">Yönetmen</span>
+            <span class="detail-value">Leyla Arslan</span>
+          </div>
+          <div class="detail-card">
+            <span class="detail-icon">🏆</span>
+            <span class="detail-label">Ödül</span>
+            <span class="detail-value">En İyi Yeni Oyun 2024</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== OYUNCU KADROSU ===================== -->
+  <section class="section cast-section" id="cast">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">Oyuncu Kadrosu</span>
+        <h2 class="section-title">Sahneyi Canlandıranlar</h2>
+      </div>
+
+      <div class="cast-grid">
+
+        <!-- Oyuncu 1 -->
+        <div class="cast-card">
+          <div class="cast-photo cast-photo-1">
+            <div class="cast-photo-overlay">
+              <span class="cast-quote">"Sahne benim için bir itiraf yeri."</span>
+            </div>
+          </div>
+          <div class="cast-info">
+            <h3 class="cast-name">Meryem Kaya</h3>
+            <span class="cast-role">Selma — Tiyatronun Son Aktris</span>
+            <p class="cast-bio">
+              İstanbul Devlet Tiyatroları mezunu Kaya, bu rolde 20 yıllık kariyerinin
+              en zorlu performansını sergiliyor.
+            </p>
+          </div>
+        </div>
+
+        <!-- Oyuncu 2 -->
+        <div class="cast-card">
+          <div class="cast-photo cast-photo-2">
+            <div class="cast-photo-overlay">
+              <span class="cast-quote">"Karanlıkta oynamak güzel."</span>
+            </div>
+          </div>
+          <div class="cast-info">
+            <h3 class="cast-name">Tarık Yılmaz</h3>
+            <span class="cast-role">Hasan — Gizemli Yabancı</span>
+            <p class="cast-bio">
+              Uluslararası festivallerde ödüllü oyuncu Yılmaz, bu sezonda Luna Sahne
+              ile ilk kez buluşuyor.
+            </p>
+          </div>
+        </div>
+
+        <!-- Oyuncu 3 -->
+        <div class="cast-card">
+          <div class="cast-photo cast-photo-3">
+            <div class="cast-photo-overlay">
+              <span class="cast-quote">"Her seyirci bana yeni şeyler öğretiyor."</span>
+            </div>
+          </div>
+          <div class="cast-info">
+            <h3 class="cast-name">Deniz Avcı</h3>
+            <span class="cast-role">Ayşe — Genç Kostüm Tasarımcısı</span>
+            <p class="cast-bio">
+              Sahne kariyerinin ilk büyük rolünde Avcı; sessiz gücü ve derin
+              ifadesiyle dikkat çekiyor.
+            </p>
+          </div>
+        </div>
+
+        <!-- Oyuncu 4 -->
+        <div class="cast-card">
+          <div class="cast-photo cast-photo-4">
+            <div class="cast-photo-overlay">
+              <span class="cast-quote">"Tiyatro hayatı daha katlanılır kılar."</span>
+            </div>
+          </div>
+          <div class="cast-info">
+            <h3 class="cast-name">Cengiz Doğan</h3>
+            <span class="cast-role">Rıfat — Tiyatro Müdürü</span>
+            <p class="cast-bio">
+              30 yıllık sahne deneyimiyle Doğan; hikâyenin merkezindeki trajik
+              figüre derin bir boyut katıyor.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SEANSLAR ===================== -->
+  <section class="section sessions-section" id="sessions">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">Seanslar</span>
+        <h2 class="section-title">Gösterim Takvimi</h2>
+      </div>
+
+      <!-- Filtre Butonları (JavaScript ile çalışır) -->
+      <div class="session-filters">
+        <button class="filter-btn active" data-filter="all">Tüm Seanslar</button>
+        <button class="filter-btn" data-filter="week">Bu Hafta</button>
+        <button class="filter-btn" data-filter="month">Bu Ay</button>
+      </div>
+
+      <!-- Seans Kartları -->
+      <div class="sessions-grid" id="sessionsGrid">
+
+        <!-- Her kartta data-week ve data-month attribute'ları filtreleme için kullanılır -->
+
+        <div class="session-card" data-week="true" data-month="true">
+          <div class="session-date-block">
+            <span class="session-day">12</span>
+            <span class="session-month-name">Temmuz</span>
+          </div>
+          <div class="session-info">
+            <p class="session-time">Cumartesi · 20:30</p>
+            <p class="session-venue">Ana Salon — Kapalı Çarşı Binası</p>
+            <p class="session-seats">🪑 Sınırlı Koltuk</p>
+          </div>
+          <div class="session-price-block">
+            <span class="session-price">₺450</span>
+            <span class="session-price-note">kişi başı</span>
+            <a href="#" class="btn btn-primary btn-sm">Bilet Al</a>
+          </div>
+        </div>
+
+        <div class="session-card" data-week="true" data-month="true">
+          <div class="session-date-block">
+            <span class="session-day">13</span>
+            <span class="session-month-name">Temmuz</span>
+          </div>
+          <div class="session-info">
+            <p class="session-time">Pazar · 15:00</p>
+            <p class="session-venue">Ana Salon — Kapalı Çarşı Binası</p>
+            <p class="session-seats">🪑 Bol Koltuk</p>
+          </div>
+          <div class="session-price-block">
+            <span class="session-price">₺380</span>
+            <span class="session-price-note">kişi başı</span>
+            <a href="#" class="btn btn-primary btn-sm">Bilet Al</a>
+          </div>
+        </div>
+
+        <div class="session-card" data-week="false" data-month="true">
+          <div class="session-date-block">
+            <span class="session-day">19</span>
+            <span class="session-month-name">Temmuz</span>
+          </div>
+          <div class="session-info">
+            <p class="session-time">Cumartesi · 20:30</p>
+            <p class="session-venue">Küçük Salon — Kapalı Çarşı Binası</p>
+            <p class="session-seats">🪑 Bol Koltuk</p>
+          </div>
+          <div class="session-price-block">
+            <span class="session-price">₺320</span>
+            <span class="session-price-note">kişi başı</span>
+            <a href="#" class="btn btn-primary btn-sm">Bilet Al</a>
+          </div>
+        </div>
+
+        <div class="session-card sold-out" data-week="false" data-month="true">
+          <div class="session-date-block">
+            <span class="session-day">20</span>
+            <span class="session-month-name">Temmuz</span>
+          </div>
+          <div class="session-info">
+            <p class="session-time">Pazar · 18:00</p>
+            <p class="session-venue">Ana Salon — Kapalı Çarşı Binası</p>
+            <p class="session-seats">✗ Tükendi</p>
+          </div>
+          <div class="session-price-block">
+            <span class="session-price">₺450</span>
+            <span class="session-price-note">kişi başı</span>
+            <button class="btn btn-ghost btn-sm" disabled>Tükendi</button>
+          </div>
+        </div>
+
+        <div class="session-card" data-week="false" data-month="true">
+          <div class="session-date-block">
+            <span class="session-day">26</span>
+            <span class="session-month-name">Temmuz</span>
+          </div>
+          <div class="session-info">
+            <p class="session-time">Cumartesi · 20:30</p>
+            <p class="session-venue">Ana Salon — Kapalı Çarşı Binası</p>
+            <p class="session-seats">🪑 Bol Koltuk</p>
+          </div>
+          <div class="session-price-block">
+            <span class="session-price">₺450</span>
+            <span class="session-price-note">kişi başı</span>
+            <a href="#" class="btn btn-primary btn-sm">Bilet Al</a>
+          </div>
+        </div>
+
+        <div class="session-card" data-week="false" data-month="false">
+          <div class="session-date-block">
+            <span class="session-day">02</span>
+            <span class="session-month-name">Ağustos</span>
+          </div>
+          <div class="session-info">
+            <p class="session-time">Cumartesi · 20:30</p>
+            <p class="session-venue">Ana Salon — Kapalı Çarşı Binası</p>
+            <p class="session-seats">🪑 Bol Koltuk</p>
+          </div>
+          <div class="session-price-block">
+            <span class="session-price">₺450</span>
+            <span class="session-price-note">kişi başı</span>
+            <a href="#" class="btn btn-primary btn-sm">Bilet Al</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALERİ ===================== -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">Galeri</span>
+        <h2 class="section-title">Sahneden Kareler</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item-large">
+          <div class="gallery-placeholder gp-1">
+            <span class="gallery-label">Perde Açılışı</span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">⊕</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder gp-2">
+            <span class="gallery-label">Sahne I</span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">⊕</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder gp-3">
+            <span class="gallery-label">Sahne II</span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">⊕</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder gp-4">
+            <span class="gallery-label">Final</span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">⊕</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder gp-5">
+            <span class="gallery-label">Kostümler</span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">⊕</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder gp-6">
+            <span class="gallery-label">Prova</span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">⊕</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== SEYİRCİ YORUMLARI ===================== -->
+  <section class="section reviews-section" id="reviews">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">Seyirci Yorumları</span>
+        <h2 class="section-title">İzleyenler Ne Dedi?</h2>
+      </div>
+
+      <div class="reviews-grid">
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            "Son perdede nefesim kesildi. Türk tiyatrosunda uzun zaman sonra
+            böyle bir gerilim atmosferi yaşadım. Tarık Yılmaz'ın oyunculuğu
+            olağanüstüydü — gözlerini hiç unutamayacağım."
+          </p>
+          <div class="review-author">
+            <div class="review-avatar">AY</div>
+            <div class="review-author-info">
+              <span class="review-name">Aylin Yıldız</span>
+              <span class="review-date">Haziran 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card review-featured">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            "Meryem Kaya sahneye çıktığı andan itibaren 95 dakika boyunca
+            hiçbirimiz kımıldamadık. Bu oyun bir kez değil, defalarca
+            izlenmeli. Her seferinde farklı bir şey keşfediyorsunuz."
+          </p>
+          <div class="review-author">
+            <div class="review-avatar">MC</div>
+            <div class="review-author-info">
+              <span class="review-name">Mehmet Can Öztürk</span>
+              <span class="review-date">Mayıs 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★☆</div>
+          <p class="review-text">
+            "Dekor ve ışık tasarımı başlı başına bir sanat eseri. Sahne
+            atmosferi sizi 1940'ların İstanbul'una anında götürüyor.
+            Luna Sahne bu yıl çıtayı çok yükseltti."
+          </p>
+          <div class="review-author">
+            <div class="review-avatar">SD</div>
+            <div class="review-author-info">
+              <span class="review-name">Selin Demir</span>
+              <span class="review-date">Mayıs 2025</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== İLETİŞİM ===================== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">İletişim</span>
+        <h2 class="section-title">Bize Ulaşın</h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Sol: İletişim bilgileri -->
+        <div class="contact-info">
+          <h3 class="contact-info-title">Luna Sahne Tiyatrosu</h3>
+          <p class="contact-info-desc">
+            Sorularınız, kurumsal bilet talepleri veya basın iletişimi için
+            aşağıdaki kanallardan bize ulaşabilirsiniz.
+          </p>
+
+          <ul class="contact-list">
+            <li class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <strong>Adres</strong>
+                <span>Kapalı Çarşı Yanı, Beyazıt Mah. No:14, Fatih / İstanbul</span>
+              </div>
+            </li>
+            <li class="contact-item">
+              <span class="contact-icon">📞</span>
+              <div>
+                <strong>Telefon</strong>
+                <span>+90 (212) 555 08 24</span>
+              </div>
+            </li>
+            <li class="contact-item">
+              <span class="contact-icon">✉</span>
+              <div>
+                <strong>E-posta</strong>
+                <span>info@lunasahne.com.tr</span>
+              </div>
+            </li>
+            <li class="contact-item">
+              <span class="contact-icon">🕐</span>
+              <div>
+                <strong>Gişe Saatleri</strong>
+                <span>Salı–Pazar, 12:00–21:00</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Sağ: İletişim formu -->
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm" novalidate>
+
+            <div class="form-group">
+              <label for="name">Ad Soyad</label>
+              <input type="text" id="name" name="name" placeholder="Adınızı girin" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-posta</label>
+              <input type="email" id="email" name="email" placeholder="ornek@mail.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Konu</label>
+              <input type="text" id="subject" name="subject" placeholder="Mesajınızın konusu" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mesaj</label>
+              <textarea id="message" name="message" rows="5" placeholder="Mesajınızı buraya yazın..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              Mesaj Gönder
+            </button>
+
+            <!-- Başarı/hata mesajı (JavaScript ile gösterilir) -->
+            <div class="form-feedback" id="formFeedback"></div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Logo ve açıklama -->
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo footer-logo">
+            <span class="logo-icon">✦</span> Luna Sahne
+          </a>
+          <p class="footer-desc">
+            1998'den bu yana İstanbul'un kalbinde tiyatroyu sanatın en saf
+            hâliyle yaşatıyoruz. Her gece yeni bir perde, her seyirci
+            yeni bir hikâye.
+          </p>
+          <!-- Sosyal medya -->
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <!-- Instagram SVG ikonu -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter/X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M4 20L20 4"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hızlı linkler -->
+        <div class="footer-nav">
+          <h4 class="footer-nav-title">Hızlı Erişim</h4>
+          <ul>
+            <li><a href="#about">Oyun Hakkında</a></li>
+            <li><a href="#cast">Oyuncu Kadrosu</a></li>
+            <li><a href="#sessions">Seanslar</a></li>
+            <li><a href="#gallery">Galeri</a></li>
+            <li><a href="#reviews">Yorumlar</a></li>
+          </ul>
+        </div>
+
+        <!-- Bilgi linkleri -->
+        <div class="footer-nav">
+          <h4 class="footer-nav-title">Bilgi</h4>
+          <ul>
+            <li><a href="#">Sıkça Sorulan Sorular</a></li>
+            <li><a href="#">Bilet İade Politikası</a></li>
+            <li><a href="#">Basın Odası</a></li>
+            <li><a href="#">Kurumsal Biletler</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Alt çizgi -->
+      <div class="footer-bottom">
+        <p>© 2025 Luna Sahne Tiyatrosu. Tüm hakları saklıdır.</p>
+        <p>
+          <a href="#">Gizlilik Politikası</a> ·
+          <a href="#">Kullanım Koşulları</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ===================== SABİT BİLET AL BUTONU ===================== -->
+  <a href="#sessions" class="floating-ticket-btn" id="floatingTicket" aria-label="Bilet Al">
+    <span class="floating-ticket-icon">🎟</span>
+    <span class="floating-ticket-text">Bilet Al</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
