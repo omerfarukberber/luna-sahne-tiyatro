@@ -343,6 +343,9 @@ body {
     radial-gradient(ellipse 100% 80% at 50% -20%, #1A0810 0%, transparent 60%),
     radial-gradient(ellipse 60%  50% at 20% 80%,  rgba(139,26,47,0.08) 0%, transparent 60%),
     var(--bg);
+    background:
+  linear-gradient(rgba(8,8,14,0.72), rgba(8,8,14,0.92)),
+  url("assets/images/hero-stage.jpg") center/cover no-repeat;
 }
 
 /* Vignet — kenarları karartan */
